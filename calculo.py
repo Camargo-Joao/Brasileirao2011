@@ -3,7 +3,7 @@ system('cls')
 
 import csv
 
-entrada = open('brasileirao2011/brasileirao.csv', 'r', encoding="utf-8")
+entrada = open('./brasileirao.csv', 'r', encoding="utf-8")
 
 arquivo = csv.reader(entrada, delimiter=',')
 m=0
